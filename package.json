@@ -1,0 +1,17 @@
+{
+  "name": "browsecucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "chromedriver": "^86.0.0",
+    "selenium-cucumber-js": "^1.7.1"
+  }
+}
