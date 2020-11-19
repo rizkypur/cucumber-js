@@ -24,7 +24,7 @@ Given('I am accesing tanihub website', async function () {
 });
 
 When('I click Jabodetabek for Area Pengiriman', async function () {
-    const element = await driver.findElement(By.xpath("//div[@class='regionModalBody-0-2-22']/div[2]"));
+    const element = await driver.findElement(By.xpath("//input[@name='radio-desktop']"));
     element.click();
 });
 
